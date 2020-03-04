@@ -10,7 +10,7 @@ header.cabecalho {
     border-bottom: 1px #606060 solid;
     height: 150px;
     background: url(../Img/icon/logo.png) no-repeat 0px -37px;
-    background-color: royalblue;
+    background-color: rgb(8, 26, 80);
 }
 /*Responsivo*/
 div#interface {
