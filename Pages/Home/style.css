@@ -1,6 +1,63 @@
 *{
     margin: 0;
 }
-.logo {
-    width: 60px;
+body {
+    background-color: #dddddd;
+    color: rgba(0, 0, 0, 1);
 }
+/*cabecalho*/
+header.cabecalho {
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: url(../Img/icon/logo.png) no-repeat 0px -37px;
+    
+}
+/*Responsivo*/
+div#interface {
+    width: 900px;
+    background-color: #ffffff;
+    margin: 10px auto 10px auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+/*Formatação do menu*/
+nav.menu {
+    display: block;
+    background-color: midnightblue;
+}
+nav.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 10px;
+    left: 566px;
+    
+}
+
+nav.menu li {
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 1s;
+    
+}
+
+nav.menu li:hover {
+    background-color: #606060;
+}
+
+nav.menu h1 {
+    display: none;
+}
+
+nav.menu a {
+    color: #000000;
+    text-decoration: none;
+
+}
+
+nav.menu a:hover {
+    color: #ffffff;
+}
+
