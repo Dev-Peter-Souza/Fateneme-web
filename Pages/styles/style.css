@@ -86,3 +86,7 @@ aside.lateral {
   border-top: 1px solid #606060;
   color: #ffffff;
 }
+
+footer.rodape p {
+  text-align: center;
+}
