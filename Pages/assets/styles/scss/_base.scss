@@ -1,0 +1,46 @@
+// font-family
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: $fonte-padrao;
+    margin: 0px;
+}
+
+
+button{
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
+.invisible {
+    display: none;
+}
+
+
