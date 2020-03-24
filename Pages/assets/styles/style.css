@@ -27,16 +27,105 @@ li {
 }
 
 a {
-  text-decoration: none;
   color: inherit;
 }
 
 a:hover {
   opacity: 0.6;
+  text-decoration: none;
 }
 
 .invisible {
   display: none;
+}
+
+.cursos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  background-color: #dee2e6;
+  padding: 4.8rem calc((100% - 1296px) / 2);
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 30%;
+  padding: 1.6rem;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  -webkit-margin-after: 1em;
+          margin-block-end: 1em;
+  -webkit-margin-start: 0px;
+          margin-inline-start: 0px;
+  -webkit-margin-end: 0px;
+          margin-inline-end: 0px;
+}
+
+.diretoria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+      align-items: center;
+  margin: 3.2rem 1.6rem;
+}
+
+.diretoria img:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(0.85);
+          transform: scale(0.85);
+  width: 100%;
+  height: 13rem;
+  -webkit-transition: -webkit-filter 0.3s ease-in-out 0s, -webkit-transform 0.3s ease-in-out 0s;
+  transition: -webkit-filter 0.3s ease-in-out 0s, -webkit-transform 0.3s ease-in-out 0s;
+  transition: filter 0.3s ease-in-out 0s, transform 0.3s ease-in-out 0s;
+  transition: filter 0.3s ease-in-out 0s, transform 0.3s ease-in-out 0s, -webkit-filter 0.3s ease-in-out 0s, -webkit-transform 0.3s ease-in-out 0s;
 }
 
 .nav {
@@ -178,7 +267,13 @@ body {
 
 /* Botão*/
 a.btn-saiba-mais {
-  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  left: 235%;
   margin: 1em;
   padding: .6em;
   font-family: Arial;
@@ -256,5 +351,18 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
   background-color: #18497c;
   line-height: 2.20;
   color: #ffffff;
+}
+
+.rede-sociais {
+  display: block;
+}
+
+.rede-sociais a {
+  padding: 10px;
+}
+
+.rede-sociais img:hover {
+  background-color: #2381e6;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

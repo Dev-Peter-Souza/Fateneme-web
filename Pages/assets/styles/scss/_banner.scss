@@ -102,6 +102,9 @@ body {
 /* Botão*/
 
 a.btn-saiba-mais {
+    display: flex;
+    flex-flow:row wrap;
+    left: 235%;
     display: inline-block;
     margin: $margin-btn;
     padding: .6em;
