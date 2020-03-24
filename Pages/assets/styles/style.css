@@ -16,7 +16,7 @@ button {
   font-family: inherit;
 }
 
-.container {
+.container-1 {
   width: 80%;
   margin: 0 auto;
   max-width: 1200px;
@@ -40,64 +40,36 @@ a:hover {
 }
 
 .cursos {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   background-color: #dee2e6;
   padding: 4.8rem calc((100% - 1296px) / 2);
 }
 
-.card {
+.card-flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  width: 30%;
-  padding: 1.6rem;
-  -webkit-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.card:hover {
+.card-cursos:hover {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.card p {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-margin-before: 1em;
-          margin-block-start: 1em;
-  -webkit-margin-after: 1em;
-          margin-block-end: 1em;
-  -webkit-margin-start: 0px;
-          margin-inline-start: 0px;
-  -webkit-margin-end: 0px;
-          margin-inline-end: 0px;
+.card-img {
+  width: 100%;
+  height: 50%;
+}
+
+.card-cursos {
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 10px;
 }
 
 .diretoria {
@@ -270,10 +242,12 @@ a.btn-saiba-mais {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   left: 235%;
+  display: inline-block;
   margin: 1em;
   padding: .6em;
   font-family: Arial;
