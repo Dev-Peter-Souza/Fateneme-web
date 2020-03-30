@@ -1,0 +1,81 @@
+.flex div img {
+    max-width: 100%;
+    display: block;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+     max-width: 800px;
+     margin: 0 auto;
+     background-color: #dee2e6;
+}
+
+.flex > div {
+    flex: 1 1 200px;
+    margin: 10px;
+    transition: 1s;
+    
+}
+
+.flex > div:hover {
+    transform: scale(1.1);
+    
+}
+.flex div  p {
+    margin-top: 1px;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1; /* Grey text */
+    color: #ffffff;
+}
+
+.descricao-curso {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    height: 498px;
+    left: 0px;
+    top: 0px;
+    background-color: #dee2e6;
+   
+}
+
+.descricao-curso h2 {
+    position: relative;
+    left: 211px;
+    font-family: Montserrat;
+    color: #333333;
+
+}
+
+.descricao-curso p {
+
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 19px;
+    line-height: 25px;
+
+
+    color: #666666;
+}
+
+.descricao-curso div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.descricao-curso div img {
+
+        max-width: 100%;
+        display: block;
+        transition: 1s;
+}
+
+.descricao-curso div img:hover{
+    transform: scale(1.1);
+}

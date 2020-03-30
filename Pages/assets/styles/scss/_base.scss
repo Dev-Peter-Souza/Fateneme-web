@@ -44,14 +44,18 @@ a{
 }
 
 .cursos {
-    align-items: stretch;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: #dee2e6;
     padding: 4.8rem calc((100% - 1296px) / 2);
 }
 
 .card-flex {
- display: flex;
- justify-content: space-between;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
 }
 
 .card-cursos:hover {
@@ -64,30 +68,16 @@ a{
 }
 
 .card-cursos{
-    border: 1px solid gray;
+    border: 1px solid #ffffff;
     border-radius: 5px;;
     margin: 10px;
+    background-color: #ffffff;
 }
-
-// .card p {
-//     display:flex;
-//     flex-direction: row;
-//     flex-wrap: wrap;
-//     margin-block-start: 1em;
-//     margin-block-end: 1em;
-//     margin-inline-start: 0px;
-//     margin-inline-end: 0px;
-// }
-
-// Fotos diretoria 
-
 
 .diretoria {
     display: flex;
     flex-wrap: wrap;
-    -webkit-box-pack: justify;
     justify-content: space-between;
-    -webkit-box-align: center;
     align-items: center;
     margin: 3.2rem 1.6rem;
 }
