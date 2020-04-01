@@ -20,7 +20,8 @@ button{
 }
 
 .container-1{
-    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
     margin: 0 auto;
     max-width: 1200px;
 }
@@ -51,43 +52,20 @@ a{
     background-color: #dee2e6;
     padding: 4.8rem calc((100% - 1296px) / 2);
 }
+// .diretoria {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: space-between;
+//     align-items: center;
+//     margin: 3.2rem 1.6rem;
+// }
 
-.card-flex {
-    display: flex;
-    flex-flow: nowrap;
-    justify-content: space-between;
-}
-
-.card-cursos:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.card-img{
-    width: 100%;
-    height: 50%;
-}
-
-.card-cursos{
-    border: 1px solid #ffffff;
-    border-radius: 5px;;
-    margin: 10px;
-    background-color: #ffffff;
-}
-
-.diretoria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    margin: 3.2rem 1.6rem;
-}
-
-.diretoria img:hover {
-    filter: grayscale(100%);
-    transform: scale(0.85);
-    width: 100%;
-    height: 13rem;
-    transition: filter 0.3s ease-in-out 0s, transform 0.3s ease-in-out 0s;
-}
+// .diretoria img:hover {
+//     filter: grayscale(100%);
+//     transform: scale(0.85);
+//     width: 100%;
+//     height: 13rem;
+//     transition: filter 0.3s ease-in-out 0s, transform 0.3s ease-in-out 0s;
+// }
 
 

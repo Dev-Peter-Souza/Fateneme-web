@@ -1,0 +1,16 @@
+.layout {
+    display:flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #dee2e6;
+}
+.layout div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.layout div a img {
+    width: 200px;
+}
