@@ -16,14 +16,7 @@ button {
   font-family: inherit;
 }
 
-.container-1 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
+.container {
   margin: 0 auto;
   max-width: 1200px;
 }
@@ -73,6 +66,7 @@ a:hover {
   z-index: 1;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  position: fixed;
 }
 
 .nav--bg {
@@ -87,9 +81,9 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .container--menu {
@@ -124,19 +118,6 @@ a:hover {
 
 .botao-nav:hover {
   background-color: #2381e6;
-}
-
-.header--bg {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.918)), to(rgba(0, 0, 0, 0.349))), url("../assets/imagens/bg-img.jpg");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.918), rgba(0, 0, 0, 0.349)), url("../assets/imagens/bg-img.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 80vh;
-  height: 100vh;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .flex--header {
@@ -194,12 +175,6 @@ a:hover {
 
 /* Vars */
 /* Mixins*/
-/* body*/
-body {
-  margin: 0 auto;
-  text-align: center;
-}
-
 /* Botão*/
 a.btn-saiba-mais {
   display: -webkit-box;
@@ -278,7 +253,6 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
 }
 
 .rodape {
-  width: 100%;
   background-color: #18497c;
   line-height: 2.20;
   color: #ffffff;
@@ -289,18 +263,6 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  margin: 0 auto;
-  max-width: 1200px;
 }
 
 .rodape3 {
@@ -447,10 +409,14 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
   width: 200px;
 }
 
-.banner_principal img {
-  margin: 0;
-  position: relative;
-  width: 100%;
+.header--bg {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.918)), to(rgba(0, 0, 0, 0.349))), url("../../Img/Curso-de-Teologia.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.918), rgba(0, 0, 0, 0.349)), url("../../Img/Curso-de-Teologia.jpg");
+  min-height: 87vh;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .experiencia {

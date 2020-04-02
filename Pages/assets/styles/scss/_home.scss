@@ -1,8 +1,12 @@
-.banner_principal img {
-    margin: 0;
-    position: relative;
-    width: 100%;
-    
+.header--bg{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.918),
+    rgba(0, 0, 0, 0.349)),
+    url('../../Img/Curso-de-Teologia.jpg');
+    min-height: 87vh;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .experiencia {
