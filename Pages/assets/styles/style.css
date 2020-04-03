@@ -254,7 +254,6 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
 
 .rodape {
   background-color: #18497c;
-  line-height: 2.20;
   color: #ffffff;
   padding: 20px;
 }
@@ -263,20 +262,38 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
 }
 
 .rodape3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .rede-sociais {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: inherit;
-      flex-wrap: inherit;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .rede-sociais a {
@@ -292,98 +309,47 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
   cursor: pointer;
 }
 
-.flex div img {
-  max-width: 100%;
-  display: block;
+.header--bgc {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.918)), to(rgba(0, 0, 0, 0.349))), url("../../Img/incrições.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.918), rgba(0, 0, 0, 0.349)), url("../../Img/incrições.jpg");
+  min-height: 87vh;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.flex {
+.cards {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  max-width: 800px;
+  max-width: 900px;
+  padding: 50px;
   margin: 0 auto;
-  background-color: #dee2e6;
+  text-align: center;
 }
 
-.flex > div {
+.cards div {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 200px;
           flex: 1 1 200px;
-  margin: 10px;
+  margin: 20px;
+  border-right: solid 1px grey;
+  border-bottom: solid 1px grey;
   -webkit-transition: 1s;
   transition: 1s;
 }
 
-.flex > div:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  z-index: 1;
+.cards div:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
 }
 
-.flex div p {
-  margin-top: 1px;
-  background: black;
-  /* Fallback color */
-  background: rgba(0, 0, 0, 0.5);
-  /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  /* Grey text */
-  color: #ffffff;
-}
-
-.descricao-curso {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
-  position: relative;
-  height: 498px;
-  left: 0px;
-  top: 0px;
-  background-color: #dee2e6;
-}
-
-.descricao-curso h2 {
-  position: relative;
-  left: 211px;
-  font-family: Montserrat;
-  color: #333333;
-}
-
-.descricao-curso p {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 19px;
-  line-height: 25px;
-  color: #666666;
-}
-
-.descricao-curso div {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 200px;
-          flex: 1 1 200px;
-  margin: 10px;
-}
-
-.descricao-curso div img {
-  max-width: 100%;
-  display: block;
-  -webkit-transition: 1s;
-  transition: 1s;
-}
-
-.descricao-curso div img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+.cards div a img {
+  width: 150px;
 }
 
 .layout {
