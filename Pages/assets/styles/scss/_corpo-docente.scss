@@ -1,0 +1,145 @@
+
+.layout {
+    display:-moz-box;
+    max-width: 800px;
+    padding: 5px;
+    margin: 160px auto;
+    
+}
+.layout div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.layout div a img {
+    width: 200px;
+}
+
+.artigo {
+    display: flex;
+    border-radius: 5px;
+    background-color: #dee2e6;    
+}
+
+.artigo p {
+    margin: 2rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Marcos Del Rei*/
+
+.artigo2 {
+    display:flex; 
+    flex-direction: row-reverse;
+    border-radius: 5px;
+    background-color: lightgray;   
+}
+
+.artigo2 p {
+    margin: 2rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo2 img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Marcelo Dantas*/
+.artigo3 {
+    display: flex;
+    border-radius: 5px;
+    background-color: #dee2e6;  
+}
+.artigo3 p {
+    margin: 2rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo3 img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Tarcisio*/
+.artigo4 {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.artigo4 p {
+    margin: 2rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo4 img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+.diretoria {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Pr Sérgio Bernades */
+.artigo5 {
+    display: flex;
+    border-radius: 5px;
+    background-color: #dee2e6; 
+}
+.artigo5 p {
+    margin: 2rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo5 img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Francisco de Assis*/
+.artigo6 {
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 5px;
+    background-color: lightgray;
+}
+.artigo6 p {
+    margin: 2rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo6 img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Pr Francisco Lourenço */
+.artigo7 {
+    display: flex;
+    border-radius: 5px;
+    background-color: #dee2e6;
+}
+.artigo7 p {
+    margin: 2rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo7 img {
+    height: 200px;
+    border-radius: 10px;
+}

@@ -1,13 +1,12 @@
 .header--bgc {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.918),
-    rgba(0, 0, 0, 0.349)),
-    url('../../Img/incrições.jpg');
-    min-height: 87vh;
+    background-image: url('../../Img/cursos/logocurso.png');
+    // min-height: 87vh;
     height: 50vh;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 135px;
     
 }
 
@@ -16,7 +15,7 @@
     flex-wrap: wrap;
     max-width: 900px;
     padding: 50px;
-    margin: 150px auto;
+    margin: 40px auto;
     text-align: center;
     box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }

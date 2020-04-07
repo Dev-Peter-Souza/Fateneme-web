@@ -310,14 +310,13 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
 }
 
 .header--bgc {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.918)), to(rgba(0, 0, 0, 0.349))), url("../../Img/incrições.jpg");
-  background-image: linear-gradient(rgba(255, 255, 255, 0.918), rgba(0, 0, 0, 0.349)), url("../../Img/incrições.jpg");
-  min-height: 87vh;
+  background-image: url("../../Img/cursos/logocurso.png");
   height: 50vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 135px;
 }
 
 .cards {
@@ -328,7 +327,7 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
       flex-wrap: wrap;
   max-width: 900px;
   padding: 50px;
-  margin: 150px auto;
+  margin: 40px auto;
   text-align: center;
   -webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -468,7 +467,7 @@ form {
       flex-wrap: wrap;
   font-size: 16px;
   max-width: 800px;
-  margin: 230px auto 60px;
+  margin: 160px auto 60px;
   padding: 0 10px 10px 10px;
   border-radius: 5px;
   -webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
@@ -542,5 +541,179 @@ fieldset {
   width: 770px;
   margin: 5px 0px 5px 300px;
   border: none;
+}
+
+.layout {
+  display: -moz-box;
+  max-width: 800px;
+  padding: 5px;
+  margin: 160px auto;
+}
+
+.layout div {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px;
+  margin: 10px;
+}
+
+.layout div a img {
+  width: 200px;
+}
+
+.artigo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  background-color: #dee2e6;
+}
+
+.artigo p {
+  margin: 2rem;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Marcos Del Rei*/
+.artigo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+
+.artigo2 p {
+  margin: 2rem;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo2 img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Marcelo Dantas*/
+.artigo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  background-color: #dee2e6;
+}
+
+.artigo3 p {
+  margin: 2rem;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo3 img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Tarcisio*/
+.artigo4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+
+.artigo4 p {
+  margin: 2rem;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo4 img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+.diretoria {
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Pr Sérgio Bernades */
+.artigo5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  background-color: #dee2e6;
+}
+
+.artigo5 p {
+  margin: 2rem;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo5 img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Francisco de Assis*/
+.artigo6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border-radius: 5px;
+  background-color: lightgray;
+}
+
+.artigo6 p {
+  margin: 2rem;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo6 img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Pr Francisco Lourenço */
+.artigo7 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 5px;
+  background-color: #dee2e6;
+}
+
+.artigo7 p {
+  margin: 2rem;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo7 img {
+  height: 200px;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
