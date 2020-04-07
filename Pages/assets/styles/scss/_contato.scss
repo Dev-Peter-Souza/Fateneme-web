@@ -1,0 +1,73 @@
+form {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 16px;
+    max-width: 800px;
+    margin: 230px auto 60px;
+    padding: 0 10px 10px 10px;
+    border-radius: 5px;
+    box-shadow:  4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input {
+    width: 770px;
+    height: 30px;
+    padding: 10;
+}
+
+textarea {
+    width: 770px;
+    height: 120px;
+    line-height: 20px;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: bold;
+    border: none;
+}
+fieldset {
+    border: none;
+}
+.enviar input {
+    background-color: #069;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.enviar input:hover {
+    background-color: rgb(35, 129, 230);
+}
+
+.contato-gerais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    margin: 10px;
+}
+
+.contatos a {
+    font-size: 50px;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.hr-funcionamento {
+    padding-left: 10px;
+    border-left: solid 1px black;
+
+}
+
+.google-map iframe {
+    height: 300px;
+    width: 770px;
+    margin: 5px 0px 5px 300px;
+    border: none;
+}

@@ -1,10 +1,10 @@
+
 .layout {
-    display:flex;
-    flex-wrap: wrap;
-    max-width: 900px;
-    padding: 10px;
-    margin: 0 auto;
-    background-color: #dee2e6;
+    display:-moz-box;
+    max-width: 800px;
+    padding: 5px;
+    margin: 160px auto;
+    
 }
 .layout div {
     flex: 1 1 200px;
@@ -13,4 +13,52 @@
 
 .layout div a img {
     width: 200px;
+}
+
+.artigo {
+    display: flex;    
+}
+
+.artigo p {
+    margin: 2rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Marcos Del Rei*/
+
+.artigo2 {
+    display:flex; 
+    flex-direction: row-reverse;   
+}
+
+.artigo2 p {
+    margin: 2rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo2 img {
+    height: 200px;
+    border-radius: 10px;
+}
+
+/* Marcelo Dantas*/
+.artigo3 {
+    display: flex;  
+}
+.artigo3 p {
+    margin: 2rem;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo3 img {
+    height: 200px;
+    border-radius: 10px;
 }

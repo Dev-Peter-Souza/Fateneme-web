@@ -31,20 +31,44 @@
         </div>
 
     </nav>
-    <!--Aqui começa Header-->
-    <header class="header--bg">
-    </header>
+    <!--Aqui Termina Header -->
+    <form name="Formteste" action="#" method="POST">
+        <fieldset>
+            <legend>Fale conosco</legend>
+            <p class="nome">
+                <input type="text" name="nome" placeholder="Nome Completo" required="required">
+            </p>
 
-    <!--Aqui Termina Header-->
-    <section class="experiencia">
-        <h1 class="tituloex">Construindo Experiência</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem odit perspiciatis eius facere
-            laborum debitis quisquam ut! Delectus quibusdam ut est, incidunt voluptas ipsum, necessitatibus beatae
-            molestiae ea excepturi deserunt!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, sint? Nam, deleniti libero. Sapiente nostrum
-            architecto blanditiis eveniet, repellendus asperiores eaque consequatur eligendi porro cum debitis fugit
-            cumque nisi deserunt.</p>
-    </section>
+            <p class="email">
+                <input type="email" name="email" placeholder="Informe seu Email" required="required">
+            </p>
+
+            <p class="assunto">
+                <input type="text" name="assunto" placeholder="Informe o assunto" required="required">
+            </p>
+
+            <p class="mensagem">
+                <textarea name="mensagem" placeholder="deixe sua mensagem" cols="30" rows="10"></textarea>
+            </p>
+
+            <p class="enviar">
+                <input type="submit" name="enviar" value="enviar">
+            </p>
+
+        </fieldset>
+    </form>
+    <div class="contato-gerais">
+        <div class="contatos">
+            <a href="tel:+">(11) 4123-6033</a>
+        </div>
+        <div class="hr-funcionamento">
+            <h3>Horário de funcionamento</h3>
+            <p>Segunda a Sexta - das 8h às 22h<br> Sábado - das 8h ao 12h</p>
+        </div>
+    </div>
+    <div class="google-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14614.499951105337!2d-46.5547371!3d-23.6893654!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc49c8d2f5b0aeeea!2sIgreja%20Evang%C3%A9lica%20Assembleia%20de%20Deus!5e0!3m2!1spt-BR!2sbr!4v1586214910542!5m2!1spt-BR!2sbr"></iframe>
+    </div>
 
     <footer class="rodape">
         <div class="rodape2 container">
@@ -64,7 +88,7 @@
 
                 <a href=""><img src="../Img/plataformas/email.png"></img></a>
             </div>
-
+                
         </div>
     </footer>
     <!-- Aqui termina o rodapé-->

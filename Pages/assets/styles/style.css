@@ -313,7 +313,7 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.918)), to(rgba(0, 0, 0, 0.349))), url("../../Img/incrições.jpg");
   background-image: linear-gradient(rgba(255, 255, 255, 0.918), rgba(0, 0, 0, 0.349)), url("../../Img/incrições.jpg");
   min-height: 87vh;
-  height: 100vh;
+  height: 50vh;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -328,8 +328,10 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
       flex-wrap: wrap;
   max-width: 900px;
   padding: 50px;
-  margin: 0 auto;
+  margin: 150px auto;
   text-align: center;
+  -webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .cards div {
@@ -353,15 +355,10 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
 }
 
 .layout {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  max-width: 900px;
-  padding: 10px;
-  margin: 0 auto;
-  background-color: #dee2e6;
+  display: -moz-box;
+  max-width: 800px;
+  padding: 5px;
+  margin: 160px auto;
 }
 
 .layout div {
@@ -373,6 +370,63 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
 
 .layout div a img {
   width: 200px;
+}
+
+.artigo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.artigo p {
+  margin: 2rem;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Marcos Del Rei*/
+.artigo2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.artigo2 p {
+  margin: 2rem;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo2 img {
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Marcelo Dantas*/
+.artigo3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.artigo3 p {
+  margin: 2rem;
+  text-align: justify;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.artigo3 img {
+  height: 200px;
+  border-radius: 10px;
 }
 
 .header--bg {
@@ -404,5 +458,89 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
   text-align: center;
   font-size: "Source Sans Pro", sans-serif;
   margin: 0;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  font-size: 16px;
+  max-width: 800px;
+  margin: 230px auto 60px;
+  padding: 0 10px 10px 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input {
+  width: 770px;
+  height: 30px;
+  padding: 10;
+}
+
+textarea {
+  width: 770px;
+  height: 120px;
+  line-height: 20px;
+}
+
+legend {
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+}
+
+fieldset {
+  border: none;
+}
+
+.enviar input {
+  background-color: #069;
+  height: 50px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.enviar input:hover {
+  background-color: #2381e6;
+}
+
+.contato-gerais {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+}
+
+.contatos a {
+  font-size: 50px;
+  padding: 10px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.hr-funcionamento {
+  padding-left: 10px;
+  border-left: solid 1px black;
+}
+
+.google-map iframe {
+  height: 300px;
+  width: 770px;
+  margin: 5px 0px 5px 300px;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */
