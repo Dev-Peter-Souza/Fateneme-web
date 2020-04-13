@@ -353,79 +353,65 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
   width: 150px;
 }
 
-.layout {
-  display: -moz-box;
-  max-width: 800px;
-  padding: 5px;
-  margin: 160px auto;
-}
-
-.layout div {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 200px;
-          flex: 1 1 200px;
-  margin: 10px;
-}
-
-.layout div a img {
-  width: 200px;
-}
-
-.artigo {
+.slider {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  height: 293px;
+  width: 600;
+  margin: 500px auto;
+  margin-top: 20px;
+  position: relative;
 }
 
-.artigo p {
-  margin: 2rem;
-  text-align: justify;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.slider li {
+  list-style: none;
+  position: absolute;
 }
 
-.artigo img {
-  height: 200px;
-  border-radius: 10px;
+.slider img {
+  margin: auto;
+  height: 100%;
+  width: 100%;
+  vertical-align: top;
 }
 
-/* Marcos Del Rei*/
-.artigo2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+.slider input {
+  display: none;
 }
 
-.artigo2 p {
-  margin: 2rem;
-  text-align: justify;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.slider label {
+  background-color: #000;
+  bottom: 10px;
+  cursor: pointer;
+  display: block;
+  height: 10px;
+  position: absolute;
+  width: 10px;
+  z-index: 10;
 }
 
-.artigo2 img {
-  height: 200px;
-  border-radius: 10px;
+.slider li:nth-child(1) label {
+  left: 10px;
 }
 
-/* Marcelo Dantas*/
-.artigo3 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.slider li:nth-child(2) label {
+  left: 40px;
 }
 
-.artigo3 p {
-  margin: 2rem;
-  text-align: justify;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.slider li:nth-child(3) label {
+  left: 70px;
 }
 
-.artigo3 img {
-  height: 200px;
-  border-radius: 10px;
+.slider img {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.slider li input:checked img {
+  opacity: 1;
+  visibility: visible;
+  z-index: 10;
 }
 
 .header--bg {
@@ -453,7 +439,7 @@ a.btn-saiba-mais:hover, a.btn-saiba-mais:focus {
 }
 
 .experiencia p {
-  padding: 0px 25px;
+  padding: 5px 100px;
   text-align: center;
   font-size: "Source Sans Pro", sans-serif;
   margin: 0;
@@ -715,5 +701,78 @@ fieldset {
 .artigo7 img {
   height: 200px;
   border-radius: 10px;
+}
+
+.tagenda h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: #18497c;
+}
+
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px auto;
+}
+
+.rtable {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.rtable th, .rtable td {
+  padding: 7px 0;
+}
+
+.rtable thead {
+  background: #18497c;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.rtable tbody tr :nth-child(1n) {
+  background: #dee2e6;
+}
+
+@media screen and (max-width: 480px) {
+  .content {
+    width: 94;
+  }
+  .content .rtable thead {
+    display: none;
+  }
+  .content .rtable tbody td {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .content {
+    width: 80%;
+  }
+  .rtable tbody tr td:nth-child(1) {
+    width: 10%;
+  }
+  .rtable tbody tr td:nth-child(2) {
+    width: 10%;
+  }
+  .rtable tbody tr td:nth-child(3) {
+    width: 20%;
+  }
+  .rtable tbody tr td:nth-child(4) {
+    width: 30%;
+  }
+  .rtable tbody tr td:nth-child(5) {
+    width: 30%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

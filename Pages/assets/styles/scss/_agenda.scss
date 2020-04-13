@@ -1,0 +1,55 @@
+.tagenda h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: #18497c;
+}
+.content {
+display: flex;
+margin: 10px auto;
+}
+
+.rtable {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+}
+.rtable th, .rtable td {
+    padding: 7px 0;
+}
+
+.rtable thead {
+    background: #18497c;
+    font-weight: bold;
+    color: #ffffff;
+}
+.rtable tbody tr {
+    :nth-child(1n){
+        background: #dee2e6;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .content {
+        width: 94;
+        .rtable thead{
+            display: none;
+        }
+        .rtable tbody td {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    .content {
+        width: 80%;
+    }
+    
+    .rtable tbody tr td:nth-child(1){width: 10%;}
+    .rtable tbody tr td:nth-child(2){width: 10%;}
+    .rtable tbody tr td:nth-child(3){width: 20%;}
+    .rtable tbody tr td:nth-child(4){width: 30%;}
+    .rtable tbody tr td:nth-child(5){width: 30%;}
+}
