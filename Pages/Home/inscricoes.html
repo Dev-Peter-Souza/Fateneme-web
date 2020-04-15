@@ -36,61 +36,45 @@
     </header>
 
     <!--Aqui Termina Header-->
-    <div class="tagenda">
-        <h1>AGENDA</h1>
-    </div>
-    <div class="content">
-        <table class="rtable">
-            <thead>
-                <tr>
-                    <th>Horário</th>
-                    <th>Mês/Ano</th>
-                    <th>Matéria</th>
-                    <th>Professores</th>
-                    <th>Aluno</th>
-                </tr>
-            </thead>
+    <form class="formulario" action="#" method="post">
+        <fieldset>
+            <legend>Faça sua Inscrição</legend>
+                <div class="campo">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" name="nome" value="" required="required">
+                </div>
+                <div class="campo">
+                    <label for="snome">Sobrenome</label>
+                    <input type="text" id="snome" name="snome" value="" required="required">
+                </div>
+                <div class="campo">
+                    <label for="estado">Sexo</label>
+                    <select name="estado" id="estado">
+                        <option value="">Masculino</option>
+                        <option value="PR">Feminino</option>
+                    </select>
+                </div>
 
-            <tbody>
-                <tr>
-                    <td>8:00 - 12:00</td>
-                    <td>Abril/2020</td>
-                    <td>Escatologia</td>
-                    <td>Daniel Perpetuo</td>
-                    <td>Peter Souza</td>
-                </tr>
+            <div class="campo">
+                <label for="email">E-mail</label>
+                <input type="text" id="email" name="email" value="" required="required">
+            </div>
+            <div class="campo">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" name="telefone" value=""required="required">
+            </div>
+    
+            
+                <div class="campo">
+                    <label for="cidade">Cidade</label>
+                    <input type="text" id="cidade" name="cidade" value=""required="required">
+                </div>
+            <p class="enviar">
+                <input type="submit" name="enviar" value="enviar">
+            </p>
 
-                <tr>
-                    <td>8:00 - 12:00</td>
-                    <td>Abril/2020</td>
-                    <td>Doutrina do Espírito Santo</td>
-                    <td>Marcelo Dantas</td>
-                    <td>Peterson Souza</td>
-                </tr>
-                <tr>
-                    <td>8:00 - 12:00</td>
-                    <td>Abril/2020</td>
-                    <td>Teologia Pastoral</td>
-                    <td>Marco Del Rei</td>
-                    <td>Kamila Viveiros</td>
-                </tr>
-                <tr>
-                    <td>8:00 - 12:00</td>
-                    <td>Abril/2020</td>
-                    <td>História da Igreja</td>
-                    <td>Adilson</td>
-                    <td>Peter Souza</td>
-                </tr>
-                <tr>
-                    <td>8:00 - 12:00</td>
-                    <td>Abril/2020</td>
-                    <td>História da Igreja</td>
-                    <td>Adilson</td>
-                    <td>Peter Souza</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+        </fieldset>
+    </form>
 
     <footer class="rodape">
         <div class="rodape2 container">

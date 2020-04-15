@@ -737,6 +737,10 @@ fieldset {
   background: #dee2e6;
 }
 
+.rtable tr td:hover {
+  background-color: #cccccc;
+}
+
 @media screen and (max-width: 480px) {
   .content {
     width: 94;
@@ -774,5 +778,9 @@ fieldset {
   .rtable tbody tr td:nth-child(5) {
     width: 30%;
   }
+}
+
+.campo {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
