@@ -56,6 +56,11 @@ a:hover {
 }
 
 .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   padding: 20px 0;
   position: relative;
   width: 100%;
@@ -451,6 +456,10 @@ form {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   font-size: 16px;
   max-width: 800px;
   margin: 160px auto 60px;
@@ -780,7 +789,56 @@ fieldset {
   }
 }
 
-.campo {
+.header--bgs {
+  background-image: url("../../Img/Inscreva-se/inscrições2.png");
+  height: 100vh;
   width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 135px;
+}
+
+.formulario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  font-size: 16px;
+  max-width: 800px;
+  margin: 40px auto 60px;
+  padding: 0 10px 10px 10px;
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.formulario, .campo > input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
 }
 /*# sourceMappingURL=style.css.map */
