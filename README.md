@@ -3,10 +3,10 @@
 Fatebene
 
 
-Tecnologias Usadas no Projeto
+Tecnologias Usadas no Projeto<br>
 
-HTML - Estrutura para linguagem web
-Javascript - Linguagem de programação client-side
-Sass - Linguagem de folhas de estilo
+HTML - Estrutura para linguagem web<br>
+Javascript - Linguagem de programação client-side<br>
+Sass - Linguagem de folhas de estilo<br>
 
 
